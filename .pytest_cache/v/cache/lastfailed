@@ -1,0 +1,6 @@
+{
+  "login_scenario.py::test_add_credentials": true, 
+  "login_scenario.py::test_open_url": true, 
+  "login_scenario.py::test_submit_form": true, 
+  "login_scenario.py::test_verify_url": true
+}
