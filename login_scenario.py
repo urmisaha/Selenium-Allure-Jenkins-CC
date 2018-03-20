@@ -1,4 +1,4 @@
-import tests.tests as tests
+import tests as tests
 
 # Test step 1 - Open URL
 def test_open_url(driver, url):
