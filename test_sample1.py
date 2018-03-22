@@ -7,3 +7,6 @@ def test_correct_answer():
 
 def test_wrong_answer():
     assert func(5) == 4
+
+def test_wrong_answer2():
+    assert func(6) == 4

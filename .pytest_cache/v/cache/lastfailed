@@ -2,5 +2,7 @@
   "login_scenario.py::test_add_credentials": true, 
   "login_scenario.py::test_open_url": true, 
   "login_scenario.py::test_submit_form": true, 
-  "login_scenario.py::test_verify_url": true
+  "login_scenario.py::test_verify_url": true, 
+  "test_sample.py::test_wrong_answer": true, 
+  "test_sample1.py::test_correct_answer": true
 }
