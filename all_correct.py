@@ -3,7 +3,7 @@ def func(x):
     return x + 1
 
 def func1(y):
-    return x - 1
+    return y - 1
 
 def test_correct_answer():
     assert func(3) == 4
