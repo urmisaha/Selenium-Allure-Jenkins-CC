@@ -10,10 +10,17 @@ import os
 
 class MyTestSuite(unittest.TestCase):
 
-	def test_Issue(self):
+	def test_Issue1(self):
 		login_test = unittest.TestSuite()
 		login_test.addTests([
 			unittest.defaultTestLoader.loadTestsFromTestCase(LoginCorrectCredentialsTest.LoginCorrect),
+			#unittest.defaultTestLoader.loadTestsFromTestCase(LoginWrongCredentialsTest.LoginWrong),
+		])
+
+	def test_Issue2(self):
+		login_test = unittest.TestSuite()
+		login_test.addTests([
+			#unittest.defaultTestLoader.loadTestsFromTestCase(LoginCorrectCredentialsTest.LoginCorrect),
 			unittest.defaultTestLoader.loadTestsFromTestCase(LoginWrongCredentialsTest.LoginWrong),
 		])
 
