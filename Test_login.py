@@ -1,7 +1,7 @@
 __author__ = 'urmi and minali'
 
-import uniest
-impo LoginWrongCredentialsTest
+import unittest
+import LoginWrongCredentialsTest
 import LoginCorrectCredentialsTest
 import os
 
