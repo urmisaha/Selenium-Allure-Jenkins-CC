@@ -32,6 +32,7 @@ class NavbarActions(unittest.TestCase):
 		self.driver.find_element_by_xpath('//a[@href="/contact_us/"]').click()
 
 	def test_navbar_faq(self):
+		self.driver.get("http://10.129.26.119")
 		self.driver.find_element_by_xpath('//a[@href="/FAQs/"]').click()
         
 	def tearDown(self):
