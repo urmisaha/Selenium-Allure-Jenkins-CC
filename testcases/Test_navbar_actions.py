@@ -21,9 +21,6 @@ class NavbarActions(unittest.TestCase):
 
 	def test_navbar_communities(self):
 		self.driver.get("http://10.129.26.119")
-		actions = ActionChains(driver)
-		element = self.driver.find_element_by_class_name('front-step')
-		actions.move_to_element(element).perform()
 		self.driver.find_element_by_xpath('//a[@href="/communities/"]').click()
 
 	def test_navbar_articles(self):
@@ -32,7 +29,6 @@ class NavbarActions(unittest.TestCase):
 
 	def test_navbar_contact(self):
 		self.driver.get("http://10.129.26.119")
-
 		self.driver.find_element_by_xpath('//a[@href="/contact_us/"]').click()
 
 	def test_navbar_faq(self):
